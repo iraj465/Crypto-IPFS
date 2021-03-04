@@ -1,0 +1,24 @@
+{
+  "name": "ipfs-asset-app",
+  "version": "1.0.0",
+  "description": "Asset exchange app leveraging IPFS",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.10",
+    "ipfs-http-client": "^46.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saptarshi Majumder",
+  "license": "ISC"
+}

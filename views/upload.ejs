@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPFS asset exchange</title>
+</head>
+<body>
+        <h1> Asset file Uploaded!</h1>
+        <p> Asset file name: <%= fileName %> </p>
+        <p>Encrypted asset file hash in IPFS is : <a href="https://ipfs.io/ipfs/<%= fileHash %>">Here! </a></p>
+
+
+        <form action="/getFile" method="POST" enctype="multipart/form-data">
+            <label>Copy and paste the above hash in this input field</label> 
+            <input type="text" name="hash">
+            <br>
+            <input type="submit" value="Get File">
+        </form>
+
+
+</body>
+</html>
