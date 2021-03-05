@@ -1,5 +1,5 @@
 # Encrypted asset exchange using IPFS
-This NodeJs app leverages IPFS protocol for exchanging encrypted data between Patients and Doctors. (Created as part of paper https://arxiv.org/abs/2012.05141)
+This NodeJs app leverages IPFS protocol for exchanging encrypted data between two parties. (Created as part of paper https://arxiv.org/abs/2012.05141)
 
 # Install IPFS
 [Install IPFS for your system](https://docs.ipfs.io/how-to/command-line-quick-start/#install-ipfs)
